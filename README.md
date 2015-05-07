@@ -12,5 +12,9 @@ go get
 hugo new site ie-site
 cd ie-site
 git clone https://github.com/328--/ie-theme.git themes
-hugo server -D -t ie-themes
+```
+
+# 使い方
+```
+https://github.com/328--/ie-theme.git
 ```
