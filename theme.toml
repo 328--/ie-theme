@@ -1,17 +1,6 @@
-name = "Ie Dev"
-license = "MIT"
-licenselink = "https://github.com/.../.../LICENSE.md"
+author = "Yuya ASATO"
 description = ""
-homepage = "http://siteforthistheme.com/"
-tags = ["", ""]
-features = ["", ""]
-
-[author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+license = "Free for all"
+name = "ie-sites"
+source_repo = ""
+tags = ["landing", "hugo"]
