@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAI;EACF,KAAK,EAAE,OAAO",
-"sources": ["../sass/main.sass"],
+"mappings": "AAAA,IAAK;EACH,gBAAgB,EAAE,OAAO",
+"sources": ["../scss/main.scss"],
 "names": [],
 "file": "ie-origin.css"
 }
