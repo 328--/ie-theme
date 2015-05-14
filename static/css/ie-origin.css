@@ -2,7 +2,30 @@ body {
   background-color: #BBC4D5; }
 
 .sidebar {
+  background-color: #ffffff; }
+
+.sidebar h2 {
   background-image: url("../img/sidebar_label_1.png");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  font-size: 14px;
+  padding: 3px 3px 3px 28px;
+  margin: 20px 3px 3px 0px; }
+
+.sidebar h3 {
+  width: 140px;
+  font-size: 12px;
+  padding: 1px 5px 1px 5px;
+  margin: 8px 0 2px 4px;
+  border: solid 2px #f1f1ff;
+  background: #BBC4D5; }
+
+.sidebar li {
+  font-size: 10px;
+  margin: 0 0 2px -4px;
+  border: solid 2px #BBC4D5;
+  background: #f1f1ff;
+  padding: 0px 0px 0px 3px;
+  list-style-type: none;
+  width: 90%; }
 
 /*# sourceMappingURL=ie-origin.css.map */
