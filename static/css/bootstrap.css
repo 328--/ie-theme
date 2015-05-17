@@ -4177,7 +4177,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   background: url("../img/top-logo.png") no-repeat left center;
   float: left;
-  height: 50px;
+  height: 70px;
   width: 200px;
   padding: 15px 15px;
   font-size: 18px;
@@ -4398,7 +4398,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   border-color: #e7e7e7;
 }
 .navbar-default .navbar-brand {
