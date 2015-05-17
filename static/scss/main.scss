@@ -2,8 +2,19 @@ body {
   background-color: #BBC4D5;
 }    
 
-.sidebar {
+img.header {
+  width: 100%;
+  height: 100%;
+}
+
+.main-board {
+  margin-top: 20px;
   background-color: #ffffff;
+  height: 300px;
+}
+
+.sidebar {
+  background-image: url("../img/sidebar_bgi.png");
 }
 
 .sidebar h2 {

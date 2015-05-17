@@ -1,8 +1,17 @@
 body {
   background-color: #BBC4D5; }
 
+img.header {
+  width: 100%;
+  height: 100%; }
+
+.main-board {
+  margin-top: 20px;
+  background-color: #ffffff;
+  height: 300px; }
+
 .sidebar {
-  background-color: #ffffff; }
+  background-image: url("../img/sidebar_bgi.png"); }
 
 .sidebar h2 {
   background-image: url("../img/sidebar_label_1.png");

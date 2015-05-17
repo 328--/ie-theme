@@ -4177,8 +4177,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   background: url("../img/top-logo.png") no-repeat left center;
   float: left;
-  height: 100px;
-  width: 220px;
+  height: 50px;
+  width: 200px;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
