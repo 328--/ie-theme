@@ -1,10 +1,12 @@
       <div class="col-sm-8">
-       <article>
-         <div class="ie-contents">
-           <h2>{{ .Title }}</h2>
-           {{ .Content }}
+        {{ range $index, $element :=  .Data.Pages }}
+        <div class="ie-contents">
+          <h2>{{ .Title }}</h2>
+          {{ .Content }}
+          {{ with .Params.img }}
+          {{ end }}
          </div>
-       </article>
+         {{ end }}
       </div>
     </div> <!-- row end -->
   </div> <!-- main-board end -->
