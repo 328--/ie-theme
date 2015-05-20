@@ -1,12 +1,10 @@
       <div class="col-sm-8">
-        {{ range $index, $element :=  .Data.Pages }}
         <div class="ie-contents">
+          {{ range where .Data.Pages.ByDate "Section" "fuga" }}
           <h2>{{ .Title }}</h2>
           {{ .Content }}
-          {{ with .Params.img }}
           {{ end }}
-         </div>
-         {{ end }}
+        </div>
       </div>
     </div> <!-- row end -->
   </div> <!-- main-board end -->
