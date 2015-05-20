@@ -3,4 +3,4 @@ description = ""
 license = "Free for all"
 name = "ie-sites"
 source_repo = ""
-tags = ["landing", "hugo"]
+tags = ["ie-sites", "hugo"]

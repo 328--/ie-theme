@@ -1,9 +1,12 @@
       <div class="col-sm-8">
         <div class="ie-contents">
-          {{ range where .Data.Pages.ByDate "Section" "fuga" }}
-          <h2>{{ .Title }}</h2>
-          {{ .Content }}
+          <article id="content">
+          {{ range where .Data.Pages.ByDate "Section" "post" }}
+          <h2><a href="{{ .Permalink }}/index.html">{{ .Title }}</a></h2>
+            {{ .Content }}
           {{ end }}
+          </article>
+
         </div>
       </div>
     </div> <!-- row end -->
