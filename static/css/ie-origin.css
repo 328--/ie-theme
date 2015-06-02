@@ -1,5 +1,6 @@
 body {
-  background-color: #BBC4D5; }
+  background-color: #BBC4D5;
+  font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; }
 
 img.header {
   width: 100%;
@@ -83,5 +84,8 @@ img.header {
   padding: 0px 0px 0px 0px;
   width: 90%;
   font-size: 15px; }
+
+.center {
+  text-align: center; }
 
 /*# sourceMappingURL=ie-origin.css.map */
