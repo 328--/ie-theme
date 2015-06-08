@@ -6,12 +6,23 @@
 
 <script src="/js/jquery.bxslider.min.js"></script>
 
+<script src="/js/highlight.pack.js"></script>
+
 <script type="text/javascript">
 $(document).ready(function(){
   $('.bxslider').bxSlider({
     mode: 'fade',
     speed: 500,
     auto: 'true'
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
   });
 });
 </script>
